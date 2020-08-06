@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: block;
+  background: white;
+  box-shadow: 0 0 5px 1px grey;
+  width: 100%;
+}
+
+.clear {
+  clear: both;
+}
+.header-top {
+  width: 50%;
+  padding: 0 25%;
+  border-bottom: solid 1px grey;
+}
+
+.header-top, .header-center, .header-bottom {
+  width: 50%;
+  padding: 0 30%;
+  border-bottom: solid 1px grey;
+}
+
+.header-top-left {
+  display: block;
+  float: left;
+  font-size: 12px;
+}
+
+.header-top-right {
+  display: block;
+  float: right;
+  font-size: 12px;
+}
+
+.header-top-right .links {
+  display: block;
+  float: left;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.header-top-right .contacts1 {
+  display: block;
+  float: left;
+  font-size: 12px;
+  line-height: 1.3;
+  margin-left: 15px;
+  font-weight: bold;
+}
+.header-top-right .contacts2 {
+  display: block;
+  float: right;
+  font-size: 12px;
+  line-height: 1.3;
+  margin-left: 15px;
+  font-weight: bold;
+}
+.header-top-right .contacts2 span {
+  display: block;
+  color: #29b514;
+}
+
+ .header-center {
+   padding: 15px 30%;
+   margin-left: 20px;
+ }
+
+.header-center-right {
+  display: block;
+  float: right;
+  width: 30%;
+  margin-right: 15px;
+}
+
+.header-center-right a {
+  display: block;
+  height: 42px;
+  line-height: 1.18;
+  float: left ;
+  font-size: 13px;
+  padding: 0 6px;
+
+}
+
+nav {
+  width: 20%;
+}
+
+nav a {
+  display: block;
+  width: 50%;
+  margin: 0 25px;
+  padding: 25 25px;
+  box-sizing: border-box;
+  font-size: 12px;
+  letter-spacing: normal;
+  text-align: center;
+  height: 75px;
+  word-wrap: break-word;
+}
+
+nav a span {
+  display: inline-block;
+  vertical-align: left;
+}
+
+.slider {
+  width: 100%;
+  padding-top: 30px;
+}
+
+.slider-top img {
+  display: block;
+  margin-bottom: 30px;
+  float: left;
+}
+
+.slider-right img {
+  display: block;
+  margin-bottom: 30px;
+  float: right;
+}
